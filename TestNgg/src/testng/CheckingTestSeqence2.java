@@ -11,6 +11,10 @@ public class CheckingTestSeqence2 {
 	public void ba() {
 		System.out.println("2nd test");
 	}
+	@Test(priority = 2,enabled=false)
+	public void aab() {
+		System.out.println("3rd test");
+	}
 
 
 }
